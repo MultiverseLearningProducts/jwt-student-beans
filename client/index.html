@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Web Tokens</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 88%;
+        max-width: 40em;
+        margin: 1em auto;
+        line-height: 1.5;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      button {
+        font: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>JSON Web Tokens</h1>
+    </header>
+    <main>
+      <p>
+        <button type="button" data-handler="live">Test Server</button>
+        <button type="button" data-handler="getToken">Get Token</button>
+        <button type="button" data-handler="test">Check Token</button>
+      </p>
+      <pre id="output"></pre>
+    </main>
+  </body>
+</html>
